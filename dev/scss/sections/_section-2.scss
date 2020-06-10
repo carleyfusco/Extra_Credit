@@ -2,72 +2,81 @@
     Section 2
 ============= */
 
-#section-2{
+#section-2 {
     display: grid;
     gap: 40px;
     grid-area: section-2;
     grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "LSIDE RSIDE";
+    grid-template-areas:
+        "LSIDE RSIDE";
     padding-bottom: 50px;
 
 
-   #left-side{
-       ul{
-           text-align: right;
-           li{
-               padding-bottom: 20px;
-               h2{
-                padding-bottom: 10px;
-               }
-               h3{
-                padding-bottom: 5px;
-                font-size: 18px;
-                font-weight: 600;
-               }
+    #left-side {
+        ul {
+            text-align: right;
 
-               h5{
+            li {
+                padding-bottom: 20px;
 
-               }
-               p{
-                padding-bottom: 10px;
-                line-height: 18px;
-               }
-           }
-       }
-       grid-area: LSIDE;
-   }
+                h2 {
+                    padding-bottom: 10px;
+                }
 
-   #right-side{
-    ul{
-        text-align: left;
-        list-style: none;
-        h2{
-            padding-bottom: 10px;
+                h3 {
+                    padding-bottom: 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                h5 {}
+
+                p {
+                    padding-bottom: 10px;
+                    line-height: 18px;
+                }
+            }
         }
-        li{
-           h4{
-            padding-bottom: 5px;
-            font-size: 18px;
-            font-weight: 600;
-           }
-           h5{
-            font-size: 16px;
-            padding-bottom: 5px;
-           } 
-           h6{
-               font-size: 16px;
-               font-weight: 100;
-               padding-bottom: 5px;
-           }
-           p{
-            padding-bottom: 20px;
-            font-size: 16px;
-            line-height: 18px;
-           }
-        }
+
+        grid-area: LSIDE;
     }
-    grid-area: RSIDE;
+
+    #right-side {
+        ul {
+            text-align: left;
+            list-style: none;
+
+            h2 {
+                padding-bottom: 10px;
+            }
+
+            li {
+                h4 {
+                    padding-bottom: 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                h5 {
+                    font-size: 16px;
+                    padding-bottom: 5px;
+                }
+
+                h6 {
+                    font-size: 16px;
+                    font-weight: 100;
+                    padding-bottom: 5px;
+                }
+
+                p {
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        grid-area: RSIDE;
     }
 
 
